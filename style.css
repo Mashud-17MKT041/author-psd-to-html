@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+/* start header area */
+
+header#header-area {
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    background: #ffffff;
+}
+
+.hwrapper {
+    
+    overflow: hidden;
+}
+
+.logo-area {
+    float: left;
+    overflow: hidden;
+}
+
+.logo-area h1 {
+    font-family: 'Lobster', cursive;
+    padding: 20px 30px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #44c0c2;
+}
+
+.navbar {
+    overflow: hidden;
+    display: block;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    overflow: hidden;
+}
+
+.navbar ul li {
+    float: left;
+    padding: 35px 28px;
+	transition: .3s;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #484c55;
+}
+
+.navbar ul li:hover {
+	background: #5f908a47;
+	/* border-bottom: 4px solid #49cbcd; */
+}
+
+li.bborder {
+    background: #5f908a47;
+    position: relative;
+}
+
+
+li.bborder:after {
+    position: absolute;
+    border-bottom: 4px solid trnsparent;
+    content: '';
+    width: 100px;
+    bottom: 0;
+    left: 0;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 35px;
+    right: 55px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35px;
+    height: 27px;
+}
+
+.toggle-button .bar {
+	height: 5px;
+	width: 100%;
+	background-color: #44c0c2;
+	border-radius: 10px;
+}
+
+/* end header area */
+
+/* start first slider-area */
+
+
+section#first-slider {
+    background:url('images/first-pic.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.swrapper {
+    overflow: hidden;
+    text-align: center;
+	padding: 150px 0;
+}
+
+.swrapper h1 {
+    color: #ffffff;
+    font-size: 58px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+	margin-bottom: 20px;
+}
+
+.swrapper p {
+    font-family: 'Open Sans', sans-serif;
+    color: #f8fbfa;
+    line-height: 35px;
+    font-size: 23px;
+	display: black;
+	margin-bottom: 50px;
+	word-spacing: 2px;
+}
+
+.swrapper a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 12px 40px;
+    border: 3px solid #ffffff;
+    margin-bottom: 100px;
+    display: block;
+    width: 140px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* end first slider-area */
+
+/* start project area */
+
+section#project {
+    text-align: center;
+}
+
+.pwrapper {
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.singleproject {
+    width: 23.50%;
+    margin-right: 2%;
+    float: left;
+    overflow: hidden;
+}
+
+.singleproject:last-child {
+	margin-right: 0;
+}
+
+.icon {
+    margin-bottom: 50px;
+}
+
+.icon a i {
+    height: 35px;
+    width: 35px;
+    font-size: 35px;
+    padding: 35px;
+    border: 3px solid #49cbcd;
+    border-radius: 100%;
+    color: #49cbcd;
+}
+
+.singleproject h4 {
+    color: #4e525d;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.singleproject p {
+    line-height: 25px;
+    color: #4e525d;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.rm a {
+    text-decoration: none;
+    padding: 5px 10px;
+    background: #49cbcd;
+    display: block;
+    width: 95px;
+    margin: auto;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+/* end project area */
+
+/* start portfolio area */
+
+section#portfolio-area {
+    background: #f1f1f1;
+    padding: 50px 0;
+    
+}
+
+section#portfolio-area h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #4e525d;
+    font-weight: 400;
+    margin-bottom: 55px;
+}
+
+.portwrapper {
+    overflow: hidden;
+}
+
+.singleportfolio {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+    overflow: hidden;
+	margin-bottom: 18px;
+}
+
+.singleportfolio:nth-child(3n) {
+	margin-right: 0;
+}
+
+.singleportfolio img {
+	width: 100%;
+}
+
+.workbtn {
+    text-align: center;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.workbtn a {
+    text-decoration: none;
+    padding: 15px 40px;
+    background: #49cbcd;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    
+}
+
+
+/* end portfolio area */
+
+/* start the team section */
+
+section#team-area {
+    padding: 85px 0;
+}
+
+section#team-area h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #4e525d;
+    margin-bottom: 110px;
+}
+
+.teamwrapper {
+    overflow: hidden;
+}
+
+.single-team {
+    width: 23.50%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 2%;
+}
+
+.single-team:last-child {
+	margin-right: 0;
+}
+
+.single-team img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+	margin-bottom: 55px;
+}
+
+.single-team h4 {
+    color: #4e525d;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.single-team span {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 22px;
+    display: block;
+	color: #4e525d;
+}
+
+.single-team p {
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 120px;
+    color: #4e525d;
+}
+
+	/* start client react */
+	
+.clientwrapper {
+    overflow: hidden;
+}
+
+.clientwrapper a:first-child {
+    float: left;
+    overflow: hidden;
+    font-size: 30px;
+    display: block;
+    margin-top: 73px;
+	color: #4e525d;
+}
+
+.client-text {
+    text-align: center;
+}
+
+.clientwrapper a:last-child {
+    float: right;
+    overflow: hidden;
+    font-size: 30px;
+    display: block;
+    margin-top: -165px;
+	color: #4e525d;
+}
+
+.client-text h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #4e525d;
+    margin-bottom: 25px;
+}
+
+.client-text p {
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 30px;
+	color: #4e525d;
+}
+
+.client-text span {
+    font-size: 25px;
+	color: #4e525d;
+}
+	/* end client react */
+
+/* end the team section */
+
+/* start footer area */
+
+footer#footer-area {
+    background: url(images/lastpic.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    padding: 75px 0;
+}
+
+.footerwraper {
+    overflow: hidden;
+}
+
+footer#footer-area h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+
+.fleft {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    color: white;
+}
+
+.fleft h2 {
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.fleft p {
+    color: #939393;
+    line-height: 22px;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.ficon ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.ficon ul li {
+    float: left;
+	margin-right: 15px;
+   
+}
+
+.ficon ul li a {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+}
+
+.ficon ul li a i {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+   
+}
+
+.ficon ul li:first-child a i {
+	background: #3b5998;
+}
+
+.ficon ul li:nth-child(2) a i {
+	background: #00acee;
+}
+
+.ficon ul li:last-child a i {
+	background: #db4a39;
+}
+
+.fright {
+    width: 50%;
+    float: right;
+    overflow: hidden;
+}
+
+.fleft span {
+    color: #7c7190;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+input[type="text"] {
+    outline: none;
+    border: none;
+    padding: 12px 60px 12px 10px;
+    width: 34%;
+    margin-right: 3%;
+    border-radius: 5px;
+}
+
+input.message {
+    margin-top: 25px;
+    width: 68%;
+    padding: 15px 150px 150px 10px;
+    overflow: hidden;
+}
+
+
+input[type="submit"] {
+    display: block;
+    margin-top: 25px;
+    outline: none;
+    border: none;
+    padding: 12px 60px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #49cbcd;
+    border-radius: 4px;
+    margin-left: 67%;
+    cursor: pointer;
+}
+
+
+
+/* end footer area */
+
+
+

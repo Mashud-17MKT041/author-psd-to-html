@@ -1,0 +1,164 @@
+@media all and (max-width: 1170px) {
+	
+	header#header-area {
+		position: static;
+	}
+	input[type="text"] {
+		margin-bottom: 20px;
+		width: auto;
+	}
+	
+	input.message {
+		margin-top: 0;
+	}
+	
+	input[type="submit"] {
+		margin-left: 0;
+	}
+	
+	
+}
+
+@media all and (max-width: 890px) {
+	
+
+	
+	.navbar ul {
+		width: 100%;
+		margin: auto;
+		float: left;
+	}
+	
+	.single-team {
+		width: 48%;
+		margin: 0 1%;
+	}
+	
+	.toggle-button {
+		display: flex;
+	}
+	
+	.navbar {
+		overflow: revert;
+		display: none;
+	}
+	
+	.navbar ul li {
+		float: none;
+		padding: 6px 0px;
+		text-align: center;
+	}
+	
+	.navbar ul li a {
+		font-size: 14px;
+	}
+	
+	li.bborder {
+		background: inherit;
+	}
+	
+	.navbar.active {
+		display: block;
+	}
+	
+	
+}
+
+@media all and (max-width: 768px) {
+	.singleproject {
+		width: 48%;
+		margin: 0 1%;
+		margin-bottom: 30px;
+	}
+	
+	.singleportfolio {
+		width: 48%;
+		margin: 0 1%;
+		margin-bottom: 15px;
+	}
+	
+	.singleportfolio:nth-child(3n) {
+		margin-right: 1%;
+	}
+	
+	.clientwrapper a i {
+
+		font-weight: 100;
+
+	}
+}
+
+@media all and (max-width: 690px) {
+	
+	.navbar ul li {
+		padding: 20px 13px;
+	}
+	
+	li.bborder:after {
+		position: static;
+	}
+
+	.fleft {
+		float: none;
+		width: 95%;
+		margin: 0 2.5%;
+		margin-bottom: 60px;
+		text-align: center;
+		
+	}
+	
+	.fright {
+		
+		width: 95%;
+		margin: 0 2.5%;
+		text-align: center;
+	}
+	
+	input[type="submit"] {
+		width: auto;
+		margin: auto;
+	}
+	
+	.ficon {
+		width: 165px;
+		margin: auto;
+    
+	}
+	
+	
+}
+
+@media all and (max-width: 590px) {
+	.single-team {
+		width: 95%;
+		margin: 0 2.5%;
+		margin-bottom: 20px;
+	}
+	
+	.singleproject {
+		width: 95%;
+		margin: 0 2.5%;
+		margin-bottom: 30px;
+	}
+	
+	.singleportfolio {
+		width: 95%;
+		margin: 0 2.5%;
+		margin-bottom: 15px;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.navbar ul li {
+		padding: 10px 5px;
+	}
+}
+
+
+
+
+
+
+
+
+
