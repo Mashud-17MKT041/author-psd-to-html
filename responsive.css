@@ -1,7 +1,6 @@
 @media all and (max-width: 1170px) {
 	
-	header#header-area {
-		position: static;
+	
 	}
 	input[type="text"] {
 		margin-bottom: 20px;
